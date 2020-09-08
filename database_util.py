@@ -56,9 +56,9 @@ def create_cache():
 		error_status = ""
 
 		for i in range(0, len(error_table), 4):
-			error_description = error_table[i].find('p').find('span')['id']
+			error_status = error_table[i].find('p').find('span')['id']
 			error_code   = error_table[i+2].find_all('p')[0].text
-			error_status = error_table[i+2].find_all('p')[0].text
+			error_description = error_table[i+2].find_all('p')[1].text
 		
 			error_code = error_code.split(' ')[0]
 

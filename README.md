@@ -18,8 +18,8 @@ When you are programming to Windows platforms you often will get errors that you
 ```
 ~ >>> winerror 15                                                              
 Error code: 15
-	Value: 15 (0xF)
-	Description: ERROR_INVALID_DRIVE
+	Value: ERROR_INVALID_DRIVE
+	Description: The system cannot find the drive specified.
 ```
 
 
