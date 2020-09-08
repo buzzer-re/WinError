@@ -18,9 +18,11 @@ When you are programming to Windows platforms you often will get errors that you
 ```
 ~ >>> winerror 15                                                              
 Error code: 15
-	Value: ERROR_INVALID_DRIVE
-	Description: 15 (0xF)
+	Value: 15 (0xF)
+	Description: ERROR_INVALID_DRIVE
 ```
+
+
 
 Just that simple.
 
@@ -28,11 +30,12 @@ Just that simple.
 ## Install
 
 ### Linux
-
+* Make sure to have Python3+ installed
 * You just need to run ***install.sh***
 
 ### Windows
-
+* Make sure to have Python3+ installed
+* Python must be in your Path env
 * You just need to run ***install.bat***
 
 ### That's all.
