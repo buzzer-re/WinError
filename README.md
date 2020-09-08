@@ -31,12 +31,12 @@ Just that simple.
 
 ### Linux
 * Make sure to have Python3+ installed
-* You just need to run ***install.sh***
+* Run ***install.sh***
 
 ### Windows
 * Make sure to have Python3+ installed
 * Python must be in your Path env
-* You just need to run ***install.bat***
+* Run ***install.bat***
 
 ### That's all.
 
